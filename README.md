@@ -29,8 +29,8 @@ LightSim is an interactive sandbox where you place walls and point lights on a 2
 ---
 
 ## Tech Stack
-
 C++
+
 SDL2
 
 ---
@@ -45,7 +45,7 @@ SDL2
 ### Build
 
 ```bash
-git clone https://github.com/your-username/lightsim.git
+git clone https://github.com/KingOws/LightSimulator.git
 cd lightsim
 g++ LightIlluminationSystem.cpp -o light_sim -I"SDL2/include/SDL2" -L"SDL2/lib" -lmingw32 -lSDL2main -lSDL2 -mwindows
 ./light_sim.exe
